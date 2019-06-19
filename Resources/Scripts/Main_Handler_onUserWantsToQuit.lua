@@ -9,7 +9,7 @@ function Main.onUserWantsToQuit (  )
 --------------------------------------------------------------------------------
 
     local sText = application.getCurrentUserEnvironmentVariable( "Text.QuestionQuitApplication")
-    user.sendEvent ( this.getUser ( ), "WindowManager", "onWindowNewQuestion", sText, "Main", "oonUserWantsToQuit_Confirmed" )
+    user.sendEvent ( this.getUser ( ), "WindowManager", "onWindowNewQuestion", sText, "Main", "onUserWantsToQuit_Confirmed" )
 
 --------------------------------------------------------------------------------
 end
