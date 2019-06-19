@@ -11,13 +11,6 @@ function Main.onInit (  )
 
     log.enable ( true )
 
-    -- Override xml.receive too log the XML URI
-    xml.receive =   function ( hXML, sURI )
-                        local bOK = Main.original_xml_receive ( hXML, sURI )
-                        log.message ( string.format("xml.receive called with the URI '%s'", sURI) )
-                        return bOK
-                    end
-
     -- Override system functions to simulate OS or ClientType
     --aystem.getOSType       = function ( ) return system.kOSTypeAndroid end
     --system.getOSType       = function ( ) return system.kOSTypeHTML5 end
