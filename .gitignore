@@ -39,3 +39,41 @@ luac.out
 *.x86_64
 *.hex
 
+# Source files
+_Sources/
+
+# ShiVaEngine related
+#####################
+
+*.lua.bak
+*.bak
+
+# Folders/Files in root directory
+
+Scenes/
+Saves/
+Build/
+Cache/
+Games/
+Models/
+Save/
+Project\.edf
+Project\.udf
+TargetProfile\.xml
+
+# Folders in Resources directory
+
+Resources/AIModels/
+Resources/AnimBanks/
+Resources/AnimClips/
+Resources/Fonts/
+Resources/HUD/
+Resources/Materials/
+Resources/Meshes/
+Resources/Particles/
+Resources/PixelMaps/
+Resources/Trails/
+Resources/Textures/
+Resources/Sounds/
+Resources/SoundBanks/
+Resources/Skeletons/
