@@ -16,7 +16,7 @@ function Main.onInit (  )
     --system.getOSType       = function ( ) return system.kOSTypeHTML5 end
     --system.getClientType   = function () return system.kClientTypeStandalone end
 
-    application.setMinFrameTime ( 1/60 )
+    this.sendEvent ( "onSetDefaultMinFrameTime" )
 
     local sApplicationMode = application.getCurrentUserEnvironmentVariable ( "system.sApplicationMode" )
 
