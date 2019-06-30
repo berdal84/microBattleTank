@@ -45,8 +45,11 @@ _Sources/
 # ShiVaEngine related
 #####################
 
+# Temporary files
+
 *.lua.bak
 *.bak
+*.ccz
 
 # Folders/Files in root directory
 
@@ -78,3 +81,5 @@ Resources/Sounds/
 Resources/SoundBanks/
 Resources/Skeletons/
 Resources/XML/
+
+
