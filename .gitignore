@@ -63,7 +63,7 @@ TargetProfile\.xml
 
 # Folders in Resources directory
 
-Resources/AIModels/
+#Resources/AIModels/
 Resources/AnimBanks/
 Resources/AnimClips/
 Resources/Fonts/
@@ -77,3 +77,4 @@ Resources/Textures/
 Resources/Sounds/
 Resources/SoundBanks/
 Resources/Skeletons/
+Resources/XML/
